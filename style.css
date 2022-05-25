@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}    
+.logo-img{
+    height: 60px;
+    width: 80px;
+    margin: 10px 20px;
+    padding: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px 0px 0px;
+    margin: 20px;
+    position: relatives;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    font-weight: 900;
+    font-family: "Archivo+Black", sans-serif;
+}
+.nav-links ul li a:hover{
+    color: rgb(189, 11, 11);
+}
+.taxure{
+    width: 90%;
+    position: absolute;
+    text-align: center;
+    padding: 250px;
+    text-align: center;
+}
+.taxure h1{
+    font-size: 40px;
+    color: rgb(138, 19, 19);
+    margin-top: 20px;
+}
+.taxure h2{
+    font-size: 40px;
+    color: rgb(0, 0, 214);
+    padding: 25px;
+    padding-left: 9px;
+    
+}
+.taxure a{
+    font-size: 25px;
+    color: rgb(245, 0, 0);
+    border: 2px solid rgb(245, 0, 0);
+    background: transparent;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.taxure a:hover{
+    color: rgb(102, 61, 8);
+    background-color: rgb(11, 20, 1);
+}
+.content{
+    height: 200px;
+    width: 100%;
+    background-color: #262A2B;
+}
+.content p{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.content-data ul{
+    list-style-type: none;
+    text-align: center;
+}
+.content-data ul li{
+    justify-content: space-between;
+    display: inline-block;
+    position: relative;
+    padding: 10px 10px;
+    margin: 30px;
+}
+.content-data ul li a{
+    text-decoration: none;
+    position: relative;
+    border: 2px solid #303436;
+    padding: 20px;
+    margin-right: 20px;
+}
+.content-data ul li a:hover{
+    background-color: black;
+}
+.apply-bg{
+    background-color: aliceblue;
+}
+.pra-sac1{
+    height: 1000px;
+    width: 60%;
+    background-color: #131c20;
+    float: left;
+}
+.pra-sac2{
+    height: 1000px;
+    width: 40%;
+    background-color: #CC6900;
+    float: right;
+}
+.pra-sac{
+    align-items: center;
+}
+.pra-sac1 h1{
+    color: #CC6900;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+.pra-sac1 p{
+    text-align: left;
+    padding-left: 200px;
+    font-size: 25px;
+}
+.pra-sac2 h2{
+    margin: 80px 40px;
+    color: black;
+}
+.reg-form{
+    margin: 40px;
+}
+.pra-sac2 reg-form box{
+    padding: 50px 30px;
+}
+.icon{
+    
+}
+h3{
+    display: flexbox;
+}
+

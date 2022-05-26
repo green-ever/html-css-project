@@ -152,4 +152,9 @@
 h3{
     display: flexbox;
 }
+.degree-path{
+    height: 250px;
+    width: 100%;
+    background-color: #181A1B;
+}
 

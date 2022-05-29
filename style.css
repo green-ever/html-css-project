@@ -25,10 +25,6 @@
     align-items: center;
     padding: 10px 25px;
 }
-.nav-links{
-    flex: 1;
-    text-align: right;
-}
 .nav-links ul li{
     list-style: none;
     display: inline-block;
@@ -40,6 +36,7 @@
     text-decoration: none;
     font-weight: 900;
     font-family: "Archivo+Black", sans-serif;
+    color: white;
 }
 .nav-links ul li a:hover{
     color: rgb(189, 11, 11);
@@ -146,15 +143,209 @@
 .pra-sac2 reg-form box{
     padding: 50px 30px;
 }
-.icon{
-    
-}
+
 h3{
-    display: flexbox;
+    display: flex-box;
+}
+.section-4{
+    height: 600px;
+    width:90%;
+    background-color: #181A1B;
+    display: flex-box;
 }
 .degree-path{
-    height: 250px;
-    width: 100%;
-    background-color: #181A1B;
+    text-align: center;
+    position: relative;
 }
+.degree-path h1{
+    color: rgb(4, 158, 86);
+    margin-top: 70px;
+    padding: 25px; 
+    font: 2.5rem sans-serif;
+}
+.section-4 degree-path p{
+    font-size: 2rem;
+}
+nav .fa-solid{
+    display: none;
+}
+
+
+
+
+
+@media(max-width: 700px){
+    
+
+    .nav-links ul li{
+        display: block;  
+    }
+    .nav-links{
+        position: absolute;
+        background-color: #131c20;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        
+    }
+    nav .fa-solid{
+        display: block;
+        color: #f50049;
+    } 
+
+
+/* taxure section start */
+
+    .taxure{
+        width: 90%;
+        position: absolute;
+        padding: 50px;
+        text-align: center;
+    }
+    .taxure h1{
+        font-size: 20px;
+        color: rgb(138, 19, 19);
+        margin-top: 10px;
+    }
+    .taxure h2{
+        font-size: 20px;
+        color: rgb(0, 0, 214);
+
+        
+    }
+    .taxure a{
+        font-size: 15px;
+        color: rgb(245, 0, 0);
+        border: 2px solid rgb(245, 0, 0);
+        background: transparent;
+        padding: 5px 10px;
+        text-decoration: none;
+    }
+    .taxure a:hover{
+        color: rgb(102, 61, 8);
+        background-color: rgb(11, 20, 1);
+    }
+    /* taxure section end */
+
+
+
+/* start content section */
+    .content{
+        height: 200px;
+        width: 100%;
+        background-color: #262A2B;
+    }
+    .content p{
+        text-align: center;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+    }
+    .content-data ul{
+        list-style-type: none;
+        text-align: center;
+    }
+    .content-data ul li{
+        justify-content: space-between;
+        display: inline-block;
+        position: relative;
+        padding: 8px 8px;
+        margin: 15px;
+    }
+    .content-data ul li a{
+        text-decoration: none;
+        position: relative;
+        border: 2px solid #303436;
+        padding: 5px;
+        margin-right: 5px;
+    }
+    .content-data ul li a:hover{
+        background-color: black;
+    }
+    /* End content section */
+
+    /* start information section  */
+    .apply-bg{
+        background-color: aliceblue;
+    }
+    .pra-sac1{
+        height: 1000px;
+        width: 60%;
+        background-color: #131c20;
+        float: left;
+    }
+    .pra-sac2{
+        height: 1000px;
+        width: 40%;
+        background-color: #CC6900;
+        float: right;
+    }
+    .pra-sac{
+        align-items: center;
+    }
+    .pra-sac1 h1{
+        color: #CC6900;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .pra-sac1 p{
+        text-align: left;
+        padding-left: 100px;
+        font-size: 15px;
+    }
+    .pra-sac2 h2{
+        margin: 40px 20px;
+        color: black;
+    }
+    .reg-form{
+        margin: 20px;
+    }
+    .pra-sac2 reg-form box{
+        padding: 25px 15px;
+    }
+    
+    h3{
+        display: flex-box;
+    }
+    /* End information section */
+
+
+    /* start degree path */
+    .section-4{
+        height: 600px;
+        width:90%;
+        background-color: #181A1B;
+        display: flex-box;
+    }
+    .degree-path{
+        text-align: center;
+        position: relative;
+    }
+    .degree-path h1{
+        color: rgb(4, 158, 86);
+        margin-top: 35px;
+        padding: 15px; 
+        font: 1.5rem sans-serif;
+    }
+    .section-4 degree-path p{
+        font-size: 1rem;
+    }
+    nav .fa-solid{
+        display: none;
+    }
+
+
+
+
+
+
+    
+    
+}
+
+
 
